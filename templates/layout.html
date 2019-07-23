@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+		<title>REDDIT FLAIRS</title>
+	</head>
+	<meta charset="UTF-8">
+</head>
+<body style="background-color: #F7C331">
+
+	<div id="header">
+		<font size="20">REDDIT FLAIRS</font>
+	</div>
+	
+	<div id="link">
+		<label style="font-size: 25px;">LINK</label>
+	</div>
+
+	<div id="inp">	
+		<form name="passdata" action="." method="post" id="form">
+			<input id="url" type="text" name="Link" value="" size="124" style="font-size: 20px" autocomplete="off">
+			<input type="Submit" value="Submit" style="font-size: 20px">
+		</form>
+
+		<p id="flairofurl" style="font-size: 20px" style="font-weight: bold"></p>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
+		<script>
+
+			$('#form').on('submit', function(e){
+				var url = $('#url').val();
+				e.preventDefault();
+				$.ajax({
+					url: 'http://webredditflair.herokuapp.com/output/',
+					data: {'url': url},
+					method: 'POST',
+					success: function(data) {
+						$('#url').val('');
+						$('#flairofurl').html('Predicted flair of the URL is ' + data['flair'])
+					}
+				});
+			});
+
+		</script>
+	</div>
+	
+	<div class="btn">
+	
+		<button class="btn btn1" id="Data" onclick="window.location.href = 'static/dan.html';">Data Analysis</button>
+	
+	</div>
+
+</body>
+</html>
