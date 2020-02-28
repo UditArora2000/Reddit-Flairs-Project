@@ -1,8 +1,8 @@
-#REDDIT FLAIR
+# REDDIT FLAIR
 
-###WEBSITE NAME - http://webredditflair.herokuapp.com/
+### WEBSITE NAME - http://webredditflair.herokuapp.com/
 
-##File Description
+## File Description
 
 * env - A virtual environment created to upload the website on Heroku
 
@@ -20,7 +20,7 @@
 * templates
 * layout.html - The layout of the website
 
-###Misc
+### Misc
 
 * data.csv - The flaired posts collected from reddit. The posts are from date 16 July 2018 to 16 July 2019.
 
