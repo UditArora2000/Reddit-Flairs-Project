@@ -1,7 +1,5 @@
 # REDDIT FLAIR
 
-### WEBSITE NAME - http://webredditflair.herokuapp.com/
-
 ## File Description
 
 * env - A virtual environment created to upload the website on Heroku
