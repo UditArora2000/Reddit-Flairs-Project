@@ -6,8 +6,7 @@
 
 ### static
 
-* css
-* style.css - Cascading Style Sheet to make 'layout.html' look better
+* css/style.css - Cascading Style Sheet to make 'layout.html' look better
 * dan.html - To display the data analysis of the reddit posts
 * cpp.png - A line chart of Number of Comments per post for each flair
 * nocs.png - A bar graph of Number of Comments for each flair
