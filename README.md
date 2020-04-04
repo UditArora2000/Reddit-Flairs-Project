@@ -29,7 +29,7 @@
 
 * requirements.txt - Needed for hosting webstie on Heroku to specify the modules needed for the website to run
 
-* model.py - It implements Stochastic Gradient Descent algortihm on 'data.csv' to make 'model.pkl' file. The accuracy of the model is 56.023%
+* model.py - It implements Stochastic Gradient Descent algortihm on 'data.csv' to make 'model.pkl' file. 
 
 * data_extraction.py - To scrape the Reddit website and add the data extracted to 'data.csv'
 
