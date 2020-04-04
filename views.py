@@ -12,7 +12,7 @@ def index():
 reddit=praw.Reddit(client_id='1ImKqf0xxFG6ZA',
 					client_secret='34cStFJTFwwu-5MJuB2tFFLQgOc',
 					user_agent='Udit',
-					username='uBoy2000', password='hello123'
+					username='uBoy2000', password='' # password removed
 					)
 
 @app.route('/output/',methods=['POST'])
