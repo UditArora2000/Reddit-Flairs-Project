@@ -1,6 +1,6 @@
 # REDDIT FLAIR
 
-### website link: http://webredditflair.herokuapp.com/
+### Website link: http://webredditflair.herokuapp.com/
 ## Directory Structure
 
 ### data
