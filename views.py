@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from sklearn.externals import joblib
 import pandas as pd
 import praw
+import reddit_cred
 
 app=Flask(__name__)
 
@@ -10,9 +11,9 @@ def index():
 	return render_template("layout.html")
 
 reddit=praw.Reddit(client_id='1ImKqf0xxFG6ZA',
-					client_secret='34cStFJTFwwu-5MJuB2tFFLQgOc',
+					client_secret=reddit_cred.client_secret,
 					user_agent='Udit',
-					username='uBoy2000', password='' # password removed
+					username='uBoy2000', password=reddit_cred.password
 					)
 
 @app.route('/output/',methods=['POST'])

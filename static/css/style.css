@@ -1,8 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+css {
+  width: 100%;
+  height: 100%;
+}
+
+.position {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#workarea {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*background-color: #1e1a3e;*/
+  font-family: Raleway;
+}
+
+#personal {
+  color:white;
+  text-decoration:none;
+  position:absolute;
+  bottom:15px;
+  right:2%;
+}
+
+.spot {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.svg-wrapper {
+  margin-top: 5px;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: #009FFD;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+
+#text {
+  margin-top: -35px;
+  text-align: center;
+}
+
+#text a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke: white;
+}
+
+body {
+	font-family: Arial;
+	background-color: white;
+	padding: 50px;  
+}
+
+
+
 #header{
 	color: black;
-	text-align: center;
-	padding-left: 100px;
+	text-align: left;
+	padding-left: 0px;
 	font-weight: bolder;
+	font-size: 40px;
 }
 
 #link{
@@ -13,11 +103,11 @@
 }
 
 #inp{
-	padding-top: 3px;
+	padding-top: 10px;
 	margin-left: -1px;
 }
 
-.btn1{
+/*.btn1{
 
 	margin-top: 4px;
 	margin-left: -1px;
@@ -25,10 +115,62 @@
 	padding-right: 30px;
 	font-size: 20px;
 }
+*/
+#submit{
+	margin-top: 10px;
+	font-size: 20px; 
+	color: white; 
+	background-color: #00BFFF !important; 
+	border: 30px; 
+	border-radius: 5px; 
+	border-color: #00BFFF !important; 
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	text-align: center;
+	margin-left: 10px;
+}
+
+#inputbox{
+	border: 5px solid black; 
+	padding:50px; 
+	background-color: white; 
+	border-radius: 0px; 
+	width: 60%; 
+	padding-left: 20%; 
+	padding-right: 20%;
+	/*margin-left: 5%;*/
+}
 
 
+#graphs{
+	border: 5px solid black; 
+	padding:50px; 
+	background-color: white; 
+	border-radius: 15px; 
+	width: 60%; 
+	padding-left: 20%; 
+	padding-right: 20%;
+	margin-top: 5%;
+}
+
+#data{
+	margin-top: 10px;
+	font-size: 20px; 
+	color: white;
+	width: 150px; 
+	background-color: #00BFFF; 
+	border: 30px; 
+	border-radius: 5px; 
+	border-color: #00BFFF; 
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+
+/*
 body {
 font-family: Arial;
 background-color: white;
 padding: 50px;
-}
+}*/
