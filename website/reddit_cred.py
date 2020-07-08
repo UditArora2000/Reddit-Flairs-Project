@@ -1,2 +1,2 @@
-client_secret = '34cStFJTFwwu-5MJuB2tFFLQgOc'
-password = 'hello123'
+client_secret = '' # removed
+password = '' # removed
