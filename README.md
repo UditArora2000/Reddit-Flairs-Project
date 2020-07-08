@@ -1,5 +1,5 @@
 # REDDIT FLAIR
-A simple application which allows users to predict the flair of a reddit India posts given its link.<br />
+An application which allows users to predict the flair of Reddit India posts by simply entering the link of the post.<br />
 Website link: http://webredditflair.herokuapp.com/
 ## Directory Structure
 
